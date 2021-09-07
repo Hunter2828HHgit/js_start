@@ -83,11 +83,12 @@
 
 
 
-my_var = "my value";
+// my_var = "my value";
 
-(function() {
-    "use strict"
-    var my_var;
-   console.log(my_var); // undefined
-   var my_var = 'local value' ;
-})()
+// (function() {
+//     "use strict"
+//     var my_var;
+//    console.log(my_var); // undefined
+//    var my_var = 'local value' ;
+// })()
+
