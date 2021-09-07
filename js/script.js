@@ -58,21 +58,36 @@
 // console.log(result);
 // document.write(result)
 
+// var result = [];
+// var questions = [
+//     'What is your name',
+//     'How old are you'
+// ];
+// for (let i = 0; i < questions.length; i++) {
+//     result[i] = prompt(questions[i]);   
+// }
+// console.log(result);
+// document.write(result)
 
 
 
+// (function () {
+//     "use strict"
+//     // Start of code
+//     function greetName(name) {
+//         alert(`Hello, ${name}`);
+//     }
+//     // End of code
+//     greetName('World');
+// })()
 
 
 
-var result = [];
-var questions = [
-    'What is your name',
-    'How old are you'
-];
+my_var = "my value";
 
-for (let i = 0; i < questions.length; i++) {
-    result[i] = prompt(questions[i]);   
-}
-
-console.log(result);
-document.write(result)
+(function() {
+    "use strict"
+    var my_var;
+   console.log(my_var); // undefined
+   var my_var = 'local value' ;
+})()
